@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>INFTYPE</title>
+		<link rel="stylesheet" type="Text/css" href="formulaire.css">
+	</head>
+	<body>
+		<header>.
+			<ul class="head">
+				<a href="Accueil.html">
+					<img src= "../images/LOGO.png" alt="accueil" width="15%" height="15%">
+				</a>
+				<h3 class="head"><a class="ecart">BTS Service Informatique aux Organisations</a></h3>
+			</ul>
+			<ul class="menu">
+				<a class="menu" href="presentation.html">Présentation</a>
+				<a class="menu" href="bts.html">BTS SIO</a>
+				<a class="menu" href="specialite.html">Spécialités</a>
+				<a class="menu" href="enseignements.html">Enseignements</a>
+				<a class="menu" href="referentiel.html">Référentiel</a>
+				<a class="menu" href="formulaire.html">Contact</a>
+			</ul>
+			<br>
+		</header>
+
+		<center>
+			<h3 class="titre">Etat civil</h3>
+			<table border = 1 class="formulaire">
+				<form>
+					<tr>
+						<td><a class="formu">Votre civilité :</a></td>
+						<td>
+							<center>
+								<select id="sexe">
+									<option value="H" name="sexe">M.</option>
+									<option value="F" name="sexe">Mme.</option>
+									<option value="A" name="sexe">Autre</option>
+								</select>
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td><a class="formu">Entrez votre nom :</a></td>
+						<td>
+							<center>
+								<input type="text" name="nom">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td><a class="formu">Entrez votre prénom :</a></td>
+						<td>
+							<center>
+								<input type="text" name="prenom">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						
+						<td><a class="formu">Entrez votre date de naissance :</a></td>
+						<td>
+							<center>
+								<input type="date" name="birth">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td><a class="formu">Entrez votre commune de naissance :</a></td>
+						<td>
+							<center>
+								<input type="numeric" name="age">
+							</center>
+						</td>
+					</tr>
+			</table>
+			
+			<h3 class="titre">Coordonnées</h3>
+					
+			<table border = 1 class="formulaire">
+					<tr>
+						<td><a class="formu">Entrez votre n° de téléphone :</a></td>
+						<td>
+							<center>
+								<input type="tel" name="tel">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<center>
+								<a class="formu">Entrez votre courriel :</a>
+							</center>
+						</td>
+						<td>
+							<center>
+								<input type=email name="mail">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td><a class="formu">Entrez votre site web :</a></td>
+						<td>
+							<center>
+								<input type="url" name="site">
+							</center>
+						</td>
+					</tr>
+				
+				
+			</table>
+					
+					<h3 class="titre">Compétences</h3>
+			
+			<table border = 1 class="formulaire">
+				
+					<tr>
+						<td><a class="formu">Niveau d'anglais :</a></td>
+						<td> 
+							<center>
+								<input type="radio" name="lvl1" value="lv1" id="lv1" /> <label for="lv1">LV 1</label>
+
+       							<input type="radio" name="lv2" value="lv2" id="lv2" /> <label for="lv2">LV 2</label>
+       						</center>
+       					</td>
+					</tr>
+					<tr>
+						<td><a class="formu">Langages informatiques maîtrisés :</a></td>
+						<td> 
+							<center>
+								<input type="checkbox" name="Python" id="py" /> <label for="py">Python</label>
+
+       							<input type="checkbox" name="Java" id="jv" /> <label for="jv">Java</label>
+
+      							<input type="checkbox" name="hmtl" id="ht" /> <label for="ht">HTML</label>
+
+      							<input type="checkbox" name="css" id="css" /> <label for="css">CSS</label>
+      						</center>
+      					</td>
+					</tr>
+					
+			</table>
+				<td colspan=2><center><input type="submit" name="envoyer"><input type="reset" name="reset"></center></td>
+				</form>
+
+
+			
+		</center>
+		<br>
+
+<footer class="foot">
+	<p class="foot">École : INFTYPE - École supérieure d'informatique</p>
+	<p class="foot">53 rue de la Pierre Levée 75011 PARIS</p>
+</footer>
+
+
+		
+	</body>
+		

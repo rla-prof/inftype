@@ -1,0 +1,105 @@
+header {
+	background-color: #2E2E2E;
+	border-style: double;
+	border-width: 8px;
+}
+
+body {
+	background-color: #6E6E6E;
+}
+
+ul.head {
+	display: inline-block;
+	display: inline;
+}
+
+.ecart {
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+h3.head {
+	text-align: center;
+	display: inline-block;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-style: outset;
+	background: #BDBDBD;
+}
+
+
+img.position {
+	float: left;
+	width: 15%;
+	height: 20%;
+	margin-left:1%;
+
+}
+
+ul.menu {
+	text-align: center;
+	border-style: outset;
+	border-width: 5px;
+	background-color: #F8E0E6;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.menu a {
+display:block;
+display: inline-block;
+width:150px;
+line-height:50px;
+text-align:center;
+background:url(bouton/boutonnoir.png) no-repeat;
+color:white;
+text-decoration:none;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+.menu a:hover {
+background:url(bouton/boutonnoir2.png) no-repeat;
+}
+
+h3.titre {
+	background-color : #FFFFF0;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+table.formulaire {
+	background-color : #FFFFE0;
+	border-style: double;
+	border-width: 8px;
+	width: 700px;
+}
+
+.formu {
+	margin-left: 4%;
+}
+
+
+.checkbox {
+	display: inline;
+}
+
+
+
+
+
+
+footer.foot {
+	background-color:#BDBDBD;
+}
+
+p.foot {
+	text-align: center;
+}
+
+
+
+
+
